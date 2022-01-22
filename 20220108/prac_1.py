@@ -6,7 +6,6 @@ while True:
     turtle.pendown
     turtle.pensize(6)
     color = ["blue", "red", "green", "yellow", "purple", ]
-    turtle.begin_fill()
     for i in range(5):
         turtle.pencolor(random.choice(color))
         turtle.forward(100)

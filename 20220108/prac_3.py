@@ -8,5 +8,5 @@ txt = "0"
 while n<x:    
     n+=1
     sum+=n
-    txt = txt + "+" + str(n)
+    txt = txt + " + " + str(n)
 print(txt,"=",sum)
